@@ -1,0 +1,58 @@
+{
+    "name": "road_safety_in_europe",
+    "title": "Road safety in Europe",
+    "version": "0.1",
+    "author": "Sneha Sharma",
+    "resources": [
+        {
+            "name": "road_safety_in_europe",
+            "path": "data/result.csv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country",
+                        "description": "Country",
+                        "type": "string"
+                    },
+                    {
+                        "name": "year",
+                        "description": "Year",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Population",
+                        "description": "Population",
+                        "type": "string"
+                    },
+                    {
+                        "name": "gdp_per_capita",
+                        "description": "GDP per capita",
+                        "type": "string"
+                    },
+                    {
+                        "name": "population_density",
+                        "description": "Population density",
+                        "type": "string"
+                    },
+                    {
+                        "name": "vehicle_ownership",
+                        "description": "Vehicle ownership",
+                        "type": "string"
+                    },
+                    {
+                        "name": "total_road_deaths",
+                        "description": "Total road deaths",
+                        "type": "string"
+                    },
+                    {
+                        "name": "road_deaths_per_million_inhabitants",
+                        "description": "Road deaths per million inhabitants",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}
